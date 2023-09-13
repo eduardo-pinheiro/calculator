@@ -10,7 +10,12 @@ interface IProps {
 
 const InitialPageViewNoMemo: React.FC<IProps> = (props) => (
   <InitialPageWrapper className='initial-page-component'>
-    <button onClick={props.onClickToOpen}>Abrir modal</button>
+    <button
+      className='button-to-open-modal'
+      onClick={props.onClickToOpen}
+    >
+      Abrir modal
+    </button>
     <Modal
       show={props.showModal}
       onClose={props.onClickToClose}
