@@ -6,7 +6,7 @@ const CenteredWrapperWrapper = styled.div`${() => css`
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: gray;
+    background-color: #000000ad;
     width: 100vw;
     height: 100vh;
     top: 0;
