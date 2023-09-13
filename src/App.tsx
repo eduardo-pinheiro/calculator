@@ -1,9 +1,10 @@
 import React from 'react';
+import { InitialPage } from './pages/InitialPage';
 
 function App() {
   return (
     <div className="App">
-      <h1>Ola mundo!</h1>
+      <InitialPage />
     </div>
   );
 }
