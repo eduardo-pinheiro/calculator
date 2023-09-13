@@ -5,7 +5,9 @@ interface IProps {}
 
 const CenteredWrapperViewNoMemo: React.FC<IProps> = () => (
   <CenteredWrapperWrapper className='centered-wrapper-component'>
-    <h1>CenteredWrapper</h1>
+    <div className='content'>
+      <h1>CenteredWrapper</h1>
+    </div>
   </CenteredWrapperWrapper>
 );
 
