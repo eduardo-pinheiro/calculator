@@ -1,12 +1,14 @@
 import React from 'react';
 import CenteredWrapperWrapper from './centered-wrapper.style';
 
-interface IProps {}
+interface IProps {
+  children?: React.ReactNode;
+}
 
-const CenteredWrapperViewNoMemo: React.FC<IProps> = () => (
+const CenteredWrapperViewNoMemo: React.FC<IProps> = (props) => (
   <CenteredWrapperWrapper className='centered-wrapper-component'>
     <div className='content'>
-      <h1>CenteredWrapper</h1>
+      {props.children}
     </div>
   </CenteredWrapperWrapper>
 );
