@@ -1,11 +1,12 @@
 import React from 'react';
 import InitialPageWrapper from './initial-page.style';
+import { CenteredWrapper } from '../../components';
 
 interface IProps {}
 
 const InitialPageViewNoMemo: React.FC<IProps> = () => (
   <InitialPageWrapper className='initial-page-component'>
-    <h1>InitialPage</h1>
+    <CenteredWrapper />
   </InitialPageWrapper>
 );
 
